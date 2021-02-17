@@ -27,21 +27,20 @@ To use the provided utility scripts follow the instructions bellow:
 
 Some scripts may need some time to run. Please be patient.
 
-### [010_models](/010_models/)
-Variability models of Soletta in DIMACS and [FeatureIDE](https://featureide.github.io/) feature model format. *UNDER CONSTRUCTION*
+### [010_models](/010_models/) *UNDER CONSTRUCTION*
+Variability models of Soletta in DIMACS and [FeatureIDE](https://featureide.github.io/) feature model format. 
 
 ### [020_samples](/020_samples/)
-Samples for the feature models contained in [010_models](/010_models). Samples are calculated by using various sampling algorithms provided by [FeatureIDE](https://featureide.github.io/). *UNDER CONSTRUCTION*
+Samples for the feature models contained in [010_models](/010_models). Samples are calculated by using various sampling algorithms provided by [FeatureIDE](https://featureide.github.io/).
 
 ### [030_sampling_stability](/030_sampling_stability/)
-Analysis results of calculating the similarity between samples. *UNDER CONSTRUCTION*
+Analysis results of calculating the similarity between samples.
 
 ### [040_configuration_space](/040_configuration_space/)
 Results of analyzing the configuration space of the variability models of BusyBox, contained in [010_models](/010_models). The analysis is done by using the following sharpSAT solvers:
 * [sharpSAT]()
 * [D4]()
 * [countAntom]()
-*UNDER CONSTRUCTION*
 <!--- # ### [050_clause_analysis](/050_clause_analysis/)
 Results of analyzing the differences in clause sizes between consecutive variability models of BusyBox.-->
 

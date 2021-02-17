@@ -8,6 +8,9 @@ PATH_CURRENT=$PWD
 PATH_DATA=${PATH_CURRENT}/020_samples
 
 cd ${PATH_DATA}
+for year in ${PATH_DATA}/*; do
+	echo ${year}
+	cd ${year}
 	#iterate over files
 	for file in *; do
 		# check whether the current file is not an archieve
@@ -16,3 +19,4 @@ cd ${PATH_DATA}
 			rm -vr ${file}
 		fi
 	done
+done
